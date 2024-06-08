@@ -1,3 +1,36 @@
+"""
+LED Clock Application with GPS Integration
+
+This application is a Tkinter-based clock that displays the current time using GPS data received from a serial port.
+It offers both digital and analog clock modes, and supports various time zones, including UTC and popular US and global time zones.
+
+Features:
+- Digital and analog clock display modes
+- Real-time time updates based on GPS data
+- Time zone selection menu
+- Fullscreen mode with option to exit
+
+Usage:
+- Run the application and select the appropriate serial port and baudrate when prompted.
+- Use the menu options to switch between digital and analog clock modes.
+- Select your desired time zone from the "Time Zone" menu.
+- Press 'Ctrl-f' to toggle fullscreen mode.
+- Press 'Ctrl-q' to exit fullscreen mode.
+
+Dependencies:
+- tkinter for GUI
+- serial for serial communication
+- pynmea2 for parsing NMEA sentences
+- serial.tools.list_ports for listing available serial ports
+- datetime for handling date and time
+- pytz for timezone handling
+- configparser for configuration file management
+- math for trigonometric calculations in analog clock
+
+Author: [Your Name]
+Date: [Date]
+"""
+
 import tkinter as tk
 import serial
 import pynmea2
