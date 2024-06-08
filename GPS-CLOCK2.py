@@ -27,8 +27,8 @@ Dependencies:
 - configparser for configuration file management
 - math for trigonometric calculations in analog clock
 
-Author: [Your Name]
-Date: [Date]
+Author: Adam Figueroa - CHAT-GPT4o
+Date: 06/08/2024
 """
 
 import tkinter as tk
